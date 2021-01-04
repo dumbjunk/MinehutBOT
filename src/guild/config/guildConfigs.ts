@@ -28,5 +28,12 @@ guildConfigs.set('795515191319855154', {
 		boosterPass: {
 			maximumGrantedBoosterPasses: 1,
 		},
+		reactionRole: {
+			channel: '795768127303974982',
+			roles: [
+				{ roleId: '795767810835480576', emoji: '📢' }, // Announcements
+				{ roleId: '795767847309017135', emoji: '📝' }, // Changelog
+			],
+		},
 	},
 });
