@@ -1,5 +1,5 @@
 import { GuildConfiguration } from './guildConfiguration';
-import { ALL_MODLOG_EVENTS, HASTEBIN_EXTENSIONS_WHITELIST, INVITE_WHITELIST } from './common';
+import { ALL_MODLOG_EVENTS } from './common';
 import { PermissionLevel } from '../../util/permission/permissionLevel';
 
 export const guildConfigs: Map<string, GuildConfiguration> = new Map();
