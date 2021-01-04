@@ -1,6 +1,5 @@
 import { GuildConfiguration } from './guildConfiguration';
 import { ALL_MODLOG_EVENTS } from './common';
-import { PermissionLevel } from '../../util/permission/permissionLevel';
 
 export const guildConfigs: Map<string, GuildConfiguration> = new Map();
 
