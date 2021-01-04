@@ -11,6 +11,8 @@ guildConfigs.set('795515191319855154', {
 	roles: {
 		muted: '795521014217179168',
 		robot: '795519334159220736',
+		boostersPass: '795712937792241674',
+		nitroBooster: '795710224434462762',
 		juniorModerator: '795519290639908875',
 		moderator: '795519245311672341',
 		seniorModerator: '795519188407025694',
@@ -22,6 +24,9 @@ guildConfigs.set('795515191319855154', {
 			channel: '795517224260861953',
 			events: ALL_MODLOG_EVENTS,
 			prefix: '',
-		}
-	}
+		},
+		boosterPass: {
+			maximumGrantedBoosterPasses: 1,
+		},
+	},
 });
